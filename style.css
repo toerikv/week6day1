@@ -1,0 +1,54 @@
+body {
+    background-color: gray;
+}
+
+.inStock, .notInStock {
+    border: 3px solid gray;
+    padding: 10px;
+    margin: 10px 0;
+    font-family: Helvetica;
+  }
+  
+  .inStock {
+    background-color: white;
+    display:flex;
+
+  }
+
+  .inStock p {
+      width: 33%;
+  }
+  .notInStock {
+    background-color: #eff;
+  }
+
+
+#clickMe {
+    background-color: rgb(181, 177, 177);
+    border: 1px solid black;
+    display: inline-block;
+    padding:10px;
+    font-family: Helvetica;
+    border-radius: 3px;
+  }
+  
+  #clickMe:hover {
+    cursor: pointer;
+  }
+
+.darkMode {
+    background-color: #034;
+
+  }
+.darkMode .inStock {
+    background-color: gray;
+    color: white;
+}
+.darkMode h1 {
+   
+    color: white;
+}
+.darkMode #clickMe  {
+   
+    color: white;
+}
